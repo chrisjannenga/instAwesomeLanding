@@ -1,6 +1,6 @@
 import React from 'react'
 
-import './styles/CuriousGraphic.css'
+import '../styles/CuriousGraphic.css'
 
 class CuriousGraphic extends React.Component {
   render () {

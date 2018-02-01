@@ -1,6 +1,6 @@
 import React from 'react'
 
-import './styles/InstAwesomeVideo.css'
+import '../styles/InstAwesomeVideo.css'
 
 class InstAwesomeVideo extends React.Component {
   render () {

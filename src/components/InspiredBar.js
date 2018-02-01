@@ -1,6 +1,6 @@
 import React from 'react'
 
-import './styles/InsipredBar.css'
+import '../styles/InspiredBar.css'
 
 class InsipredBar extends React.Component {
   render () {
