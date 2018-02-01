@@ -15,8 +15,14 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className='blue-top-bg'></div>
-      <div className='instagradient'></div>
+        <NavBar />
+        <InstAwesomeMain />
+        <InstAwesomeVideo />
+        <CuriousGraphic />
+        <InstAwesomeProcess />
+        <InspiredBar />
+        <Testimonials />
+        <Footer />
       </div>
     );
   }
