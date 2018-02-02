@@ -20,3 +20,7 @@ body {
   background: var(--concscious-blue);
   height: 98.8vh;
 }
+
+.asap-font {
+  font-family: 'Asap', sans-serif;
+}

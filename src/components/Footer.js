@@ -3,34 +3,59 @@ import React from 'react'
 import '../styles/Footer.css'
 
 class Footer extends React.Component {
-  render () {
+  render() {
     return (
-      <div className='blue-top-bg'>
+      <div className='blue-bg'>
         <div className='row'>
           <div className='col s6 m6 l6 offset-s3 offset-m3 offset-l3 center'>
-            <h5 className='white-text'>Clients: Start Your Journey</h5>
+            <h6 className='white-text asap-font'>Clients: Start Your Journey</h6>
           </div>
-          <div className='col s6 m6 l6 offset-s3 offset-m3 offset-l3 center'>
-            <h5 className='white-text'>Proffesionals: Work with us</h5>
-          </div>
-          <div className='col s6 m6 l6 offset-s3 offset-m3 offset-l3 center'>
-            <h5 className='white-text'>Peep Our Process</h5>
-          </div>
-          <div className='col s6 m6 l6 offset-s3 offset-m3 offset-l3 center'>
-            <h5 className='white-text'>Visit Our Ventures</h5>
-          </div>
-          <div className='col s6 m6 l6 offset-s3 offset-m3 offset-l3 center'>
-            <h5 className='white-text'>Jump into our Journal</h5>
-          </div>
-          <div className='col s6 m6 l6 offset-s3 offset-m3 offset-l3 center'>
-            <h5 className='white-text'>Codename: InstAwesome</h5>
-          </div>
-          <div className='col s6 m6 l6 offset-s3 offset-m3 offset-l3 center'>
-            <h5 className='white-text'>IdeaPortals.com</h5>
-          </div>
-        
         </div>
-
+        <div className='row'>
+          <div className='col s6 m6 l6 offset-s3 offset-m3 offset-l3 center'>
+            <h6 className='white-text asap-font'>Proffesionals: Work with us</h6>
+          </div>
+        </div>
+        <div className='row'>
+          <div className='col s6 m6 l6 offset-s3 offset-m3 offset-l3 center'>
+            <h6 className='white-text asap-font'>Peep Our Process</h6>
+          </div>
+        </div>
+        <div className='row'>
+          <div className='col s6 m6 l6 offset-s3 offset-m3 offset-l3 center'>
+            <h6 className='white-text asap-font'>Visit Our Ventures</h6>
+          </div>
+        </div>
+        <div className='row'>
+          <div className='col s6 m6 l6 offset-s3 offset-m3 offset-l3 center'>
+            <h6 className='white-text asap-font'>Jump into our Journal</h6>
+          </div>
+        </div>
+        <div className='row'>
+          <div className='col s6 m6 l6 offset-s3 offset-m3 offset-l3 center'>
+            <h6 className='white-text asap-font'>Codename: InstAwesome</h6>
+          </div>
+        </div>
+        <div className='row'>
+          <div className='col s6 m6 l6 offset-s3 offset-m3 offset-l3 center'>
+            <h6 className='white-text asap-font'>IdeaPortals.com</h6>
+          </div>
+        </div>
+        <div className='row'>
+          <div className='col s6 m6 l6 offset-s3 offset-m3 offset-l3 center'>
+            <h6 className='white-text asap-font'><i class="far fa-copyright fa-xs"></i> 2018 Conscious Creative</h6>
+          </div>
+        </div>
+        <div className='row center'>
+          <div className='col s6 m6 l6 offset-m3 offset-l3 '>
+            <h6><i class="fab fa-facebook-f white-text icon-padding"></i>
+            <i class="fab fa-twitter white-text icon-padding"></i>
+            <i class="fab fa-instagram white-text icon-padding"></i>
+            <i class="fab fa-linkedin-in white-text icon-padding"></i>
+            <i class="fab fa-vimeo-v white-text icon-padding"></i>
+            <i class="fab fa-youtube white-text icon-padding"></i></h6>
+          </div>
+        </div>
       </div>
     )
   }

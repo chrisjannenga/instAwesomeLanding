@@ -1,0 +1,10 @@
+.blue-bg {
+  display: block;
+  background: var(--concscious-blue);
+  height: auto;
+}
+
+.icon-padding {
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
