@@ -4,6 +4,11 @@
   padding: 0;
 }
 
+body {
+  --concscious-blue: #00c9d7;
+  --go-green: #93de7e
+}
+
 .instagradient {
   display: block;
   background: linear-gradient(90deg, #f9d550, #da2f2b, #a92aae);
@@ -12,6 +17,6 @@
 
 .blue-top-bg {
   display: block;
-  background: #00C8D9;
+  background: var(--concscious-blue);
   height: 98.8vh;
 }
