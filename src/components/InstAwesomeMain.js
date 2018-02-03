@@ -6,8 +6,8 @@ class InstAwesomeMain extends React.Component {
   render () {
     return (
       <div>
-        <div className='row'>
-          <div className='asap-text'></div>
+        <div className='row blue-top-bg center'>
+          <div className='asap-font'><h1 className='white-text'>InstAWESOME</h1></div>
         </div>
         <div className='blue-top-bg center no-padding no-margin'>
           <div className=''>
