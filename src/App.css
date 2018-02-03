@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  line-height: 0;
 }
 
 body {
@@ -15,12 +16,28 @@ body {
   height: 1.2vh;
 }
 
-.blue-top-bg {
+.instagradient-bg {
   display: block;
-  background: var(--concscious-blue);
-  height: 98.8vh;
+  background: linear-gradient(90deg, #f9d550, #da2f2b, #a92aae);
+  height: ;
+}
+
+.blue-top-bg {
+  background: #03C3D7;
 }
 
 .asap-font {
   font-family: 'Asap', sans-serif;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.iphone-graphic {
+  height: 45vh;
 }

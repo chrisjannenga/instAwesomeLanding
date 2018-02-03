@@ -46,8 +46,8 @@ class Footer extends React.Component {
             <h6 className='white-text asap-font'><i class="far fa-copyright fa-xs"></i> 2018 Conscious Creative</h6>
           </div>
         </div>
-        <div className='row center'>
-          <div className='col s6 m6 l6 offset-m3 offset-l3 '>
+        <div className='row no-margin center'>
+          <div className='col s6 m6 l6 offset-m3 offset-l3 offset-s3 '>
             <h6><i class="fab fa-facebook-f white-text icon-padding"></i>
             <i class="fab fa-twitter white-text icon-padding"></i>
             <i class="fab fa-instagram white-text icon-padding"></i>
