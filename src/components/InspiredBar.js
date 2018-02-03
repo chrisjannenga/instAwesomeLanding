@@ -5,7 +5,14 @@ import '../styles/InspiredBar.css'
 class InsipredBar extends React.Component {
   render () {
     return (
-      <div></div>
+      <div className='inspired asap-font'>
+        <div className='inspired-box'>
+          <p>Ready to inspire?</p>
+          <button className=''>
+            START YOUR AWESOME
+          </button>
+        </div>
+      </div>
     )
   }
 }

@@ -5,11 +5,14 @@ import '../styles/InstAwesomeMain.css'
 class InstAwesomeMain extends React.Component {
   render () {
     return (
-      <div>
-        <div className='row blue-top-bg center'>
-          <div className='asap-font'><h1 className='white-text'>InstAWESOME</h1></div>
+      <div className='blue-top-bg no-padding no-margin'>
+        <div className='row no-padding no-margin  center'>
+          <div className='asap-font '><h2 className='white-text flow-text no-margin'>InstAWESOME</h2></div>
         </div>
-        <div className='blue-top-bg center no-padding no-margin'>
+        <div className='row center'>
+          <div className='asap-font'><h4 className='white-text flow-text'>A better way to game your 'gram</h4></div>
+        </div>
+        <div className=' center no-padding no-margin'>
           <div className=''>
         <img className='no-margin iphone-graphic' src="https://i.imgur.com/Mi0V17b.gif" title="instalytics" height='400px' width='auto'/>
       </div>
