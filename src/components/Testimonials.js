@@ -1,29 +1,43 @@
 import React, { Component } from 'react';
 import '../styles/Testimonials.css'
 
+
 class Testimonials extends Component {
+
+
+  state = {
+    counter: 0,
+    currentT: []
+  }
+
+  text = ["Welcome", "Hi", "Sup dude"];
+  currentT = [];
+  counter = 0;
+
+  change = () => {
+    this.currentT = this.text[this.counter];
+    console.log(this.currentT);
+    this.setState({
+      counter: this.counter,
+      currentT: this.currentT
+    })
+    this.counter++;
+    if (this.counter >= this.text.length) {
+      this.counter = 0;
+    }
+  }
+
 
   render () {
 
-  var text = ["Welcome", "Hi", "Sup dude"];
-  var counter = 0;
-  var currentT= document.getElementById("changeText");
-  setInterval(change, 1000)
+    console.log(this.state);
 
-  function change() {
-   currentT = text[counter];
-   counter++;
-   console.log(currentT, "Testimonials");
-   if (counter >= text.length) {
-     counter = 0;
-   }
-  }
+    setTimeout(this.change, 5000)
 
     return (
       <div className='testimony'>
         <div className='currentT'>
-          <p ref="changeText" >
-          </p>
+          <p>{this.state.currentT}</p>
         </div>
       </div>
     )
