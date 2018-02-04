@@ -6,8 +6,8 @@ class NavBar extends React.Component {
     return (
       <nav>
         <div className="nav-wrapper">
-          <a href="#" className="brand-logo">Logo</a>
-          <ul id="nav-mobile" className="right hide-on-med-and-down">
+          <a href="#" className="brand-logo left">Logo</a>
+          <ul id="nav-mobile" className="right">
             <li><a href="sass.html">Process</a></li>
             <li><a href="badges.html">Ventures</a></li>
             <li><a href="collapsible.html">Community</a></li>
