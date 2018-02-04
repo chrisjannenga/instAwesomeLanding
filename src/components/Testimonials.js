@@ -1,11 +1,12 @@
-import React from 'react'
-
+import React, { Component } from 'react';
 import '../styles/Testimonials.css'
 
-class Testimonials extends React.Component {
+class Testimonials extends Component {
+
   render () {
     return (
-      <div></div>
+      <div className=''>
+      </div>
     )
   }
 }
