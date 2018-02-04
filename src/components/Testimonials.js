@@ -10,7 +10,12 @@ class Testimonials extends Component {
     currentT: []
   }
 
-  text = ["Welcome", "Hi", "Sup dude"];
+  text = ["Welcome", "Hi", "Sup dude",
+  `this is a really long testimony about cool stuff. Work with us and we will make
+   you the most successful version of yourself there could be.
+   Taco bell is kinda sweet sometimes. One time I ate a jalapeno.`
+  ];
+  
   currentT = [];
   counter = 0;
 
