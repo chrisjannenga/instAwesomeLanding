@@ -14,7 +14,7 @@ class InstAwesomeMain extends React.Component {
         </div>
         <div className=' center no-padding no-margin'>
           <div className=''>
-        <img className='no-margin iphone-graphic' src="https://i.imgur.com/Mi0V17b.gif" title="instalytics" height='400px' width='auto'/>
+        <img className='no-margin iphone-graphic' src="https://i.imgur.com/Mi0V17b.gif" title="instalytics" alt='instalytics' height='400px' width='auto'/>
       </div>
         <div className='instagradient no-padding no-margin'></div>
         </div>

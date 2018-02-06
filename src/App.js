@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-
+import NavBar from './components/NavBar'
 import InstAwesomeMain from './components/InstAwesomeMain'
 import InstAwesomeVideo from './components/InstAwesomeVideo'
 import CuriousGraphic from './components/CuriousGraphic'
@@ -15,7 +15,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-
+        <NavBar/>
         <InstAwesomeMain />
         <InstAwesomeVideo />
         <CuriousGraphic />

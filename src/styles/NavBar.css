@@ -1,3 +1,14 @@
-.top-margin {
-  margin-top: 2vh;
+.navBar {
+  z-index: 1;
+  width: 100%;
+  top: 0;
+  text-align: center;
+  max-height: 60px;
+  background-color: #78FA4C;
+  box-shadow: 5px 1px 30px 0 #888888;
+  background: linear-gradient(to right, #2fe70d, #17a300);
+}
+
+#sidenav-overlay {
+  z-index: 1;
 }
