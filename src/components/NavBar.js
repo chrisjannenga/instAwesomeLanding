@@ -11,9 +11,9 @@ class NavBar extends React.Component {
 
     return (
       <div className='navBar-fixed'>
-        <Navbar fixed right options={{closeOnClick: true}}  className='navBar navBar-fixed'>
+        <Navbar right options={{closeOnClick: true}}  className='navBar navBar-fixed'>
           <NavItem>
-            <span className='navText'>Home</span>
+            <span className='asap-font'>Home</span>
           </NavItem>
         </Navbar>
       </div>

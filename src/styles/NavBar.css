@@ -4,9 +4,9 @@
   top: 0;
   text-align: center;
   max-height: 60px;
-  background-color: #78FA4C;
-  box-shadow: 5px 1px 30px 0 #888888;
-  background: linear-gradient(to right, #2fe70d, #17a300);
+  background-color: #03C3D7;
+  margin: 0;
+  padding: 0;
 }
 
 #sidenav-overlay {
